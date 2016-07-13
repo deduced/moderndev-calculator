@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #100a1c;
+}
+
+.container {
+    margin-top: 2em;
+
+}
+
+.keypad {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid rgba(150, 110, 117, 0.3);
+
+}
+
+.key {
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin: 1em;
+    margin-left: 22px;
+    padding: 1em;
+    background: rgba(42,50,113, .48);
+    color: #6cacc5;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    border: 1px solid rgba(150, 110, 117, 0.3);
+
+}
+
+.key:hover {
+    background: rgba(63, 72, 225, 0.48);
+}
+
+.answer {
+    width: 64%;
+    color: #c97874;
+    background: none;
+}
+
+.number {
+
+}
+
+.operator {
+    background: rgba(0, 11, 225, 0.48);
+}
+
+.operator:hover {
+    background: rgba(0, 11, 255, 0.48);
+}
+
+.equals {
+    background: rgba(1, 243, 255, 0.48);
+    color: #7dd9ff;
+}
+
+.equals:hover {
+    background: rgba(112, 247, 255, 0.48);
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
